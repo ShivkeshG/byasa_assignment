@@ -1,9 +1,7 @@
-package com.app.byasa.data.localDataSource
+package com.app.byasa.data.local
 
 import androidx.room.*
 import com.app.byasa.data.models.ProductItem
-import kotlinx.coroutines.flow.Flow
-import kotlinx.coroutines.flow.StateFlow
 
 @Dao
 interface ProductDao {

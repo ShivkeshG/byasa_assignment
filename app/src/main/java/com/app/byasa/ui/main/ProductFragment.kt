@@ -6,16 +6,11 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.viewModels
-import androidx.lifecycle.lifecycleScope
 import androidx.navigation.fragment.navArgs
-import com.app.byasa.R
-import com.app.byasa.data.models.Product
-import com.app.byasa.data.utils.Resource
 import com.app.byasa.databinding.FragmentProductBinding
 import com.app.byasa.ui.adapter.ColorsAdapter
 import com.bumptech.glide.Glide
 import dagger.hilt.android.AndroidEntryPoint
-import kotlinx.coroutines.flow.collectLatest
 
 @AndroidEntryPoint
 class ProductFragment : Fragment() {

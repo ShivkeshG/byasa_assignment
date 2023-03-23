@@ -1,4 +1,4 @@
-package com.app.byasa.data.localDataSource
+package com.app.byasa.data.local
 
 import android.content.Context
 import androidx.room.Database

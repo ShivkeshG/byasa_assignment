@@ -1,8 +1,8 @@
 package com.app.byasa.di
 
 import android.content.Context
-import com.app.byasa.data.localDataSource.ProductDao
-import com.app.byasa.data.localDataSource.ProductDatabase
+import com.app.byasa.data.local.ProductDao
+import com.app.byasa.data.local.ProductDatabase
 import com.app.byasa.data.retrofit.ProductsApi
 import com.app.byasa.data.retrofit.RetrofitInstance
 import dagger.Module

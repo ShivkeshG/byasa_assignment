@@ -1,6 +1,5 @@
 package com.app.byasa.data.retrofit
 
-import com.app.byasa.data.models.Product
 import com.app.byasa.data.models.ProductItem
 import retrofit2.Response
 import retrofit2.http.GET

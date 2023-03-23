@@ -1,19 +1,15 @@
-package com.app.byasa.data.models
+package com.app.byasa.data.local
 
-import android.os.Parcelable
 import androidx.room.Entity
 import androidx.room.PrimaryKey
-import kotlinx.parcelize.Parcelize
+import com.app.byasa.data.models.ProductColor
 
 @Entity(tableName = "products")
-@Parcelize
-data class ProductItem(
+data class ProductEntity(
     @PrimaryKey(autoGenerate = false)
-    val id: Int,
-    val api_featured_image: String,
+    val id: Int? = null,
     val brand: String,
     val category: String?,
-    val created_at: String,
     val description: String,
     val image_link: String,
     val name: String,
@@ -24,4 +20,4 @@ data class ProductItem(
     val rating: Double?,
     val updated_at: String,
     val website_link: String
-) : Parcelable
+)
