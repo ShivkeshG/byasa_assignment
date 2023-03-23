@@ -14,7 +14,6 @@ class ProductsRepository @Inject constructor(
     private val api: ProductsApi,
     db: ProductDatabase
 ) {
-
     private val dao = db.productDao()
 
     suspend fun getAllProducts(): Flow<Resource<List<ProductItem>>> {
